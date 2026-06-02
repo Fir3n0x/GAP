@@ -5,7 +5,7 @@ A fileless persistence technique affecting all Chromium-based browsers (Edge, Ch
 GAP exploits an architectural decoupling between three independent components of Chromium's extension runtime — the **Secure Preferences** file, the **Service Worker Registration database**, and the **ScriptCache** — to achieve persistent, arbitrary JavaScript execution within the browser with no malicious artifact remaining on the filesystem.
 
 ```
-Secure Preferences    Extension ID → folder B (benign, on disk)
+Secure Preferences    Extension ID -> folder B (benign, on disk)
                                    |
                           existence check only
                                    |
@@ -38,7 +38,7 @@ Microsoft assessed the technique as not meeting their bar for a security update.
 
 ## Paper & Write-up
 
-Full paper and PoC demo available respectively at **[github.com/Fir3n0x/GAP](https://github.com/Fir3n0x/GAP/GAP___Chromium_Based_Vulnerability.pdf) and **[fir3n0x.github.io](https://fir3n0x.github.io)**.
+Full paper and PoC demo available respectively at **[github.com/Fir3n0x/GAP](https://github.com/Fir3n0x/GAP/GAP___Chromium_Based_Vulnerability.pdf)** and **[fir3n0x.github.io](https://fir3n0x.github.io)**.
 
 ---
 
