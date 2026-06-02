@@ -1,6 +1,6 @@
 # GAP - Ghost Anchor Persistence
 
-A fileless persistence technique affecting all Chromium-based browsers (Edge, Chrome, Brave, Opera, Vivaldi).
+A fileless persistence technique affecting all Chromium-based browsers (Edge, Chrome, Brave, Vivaldi).
 
 GAP exploits an architectural decoupling between three independent components of Chromium's extension runtime — the **Secure Preferences** file, the **Service Worker Registration database**, and the **ScriptCache** — to achieve persistent, arbitrary JavaScript execution within the browser with no malicious artifact remaining on the filesystem.
 
