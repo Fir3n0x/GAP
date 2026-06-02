@@ -38,7 +38,7 @@ Microsoft assessed the technique as not meeting their bar for a security update.
 
 ## Paper & Write-up
 
-Full paper and PoC demo available respectively at **[github.com/Fir3n0x/GAP](https://github.com/Fir3n0x/GAP/GAP___Chromium_Based_Vulnerability.pdf)** and **[fir3n0x.github.io](https://fir3n0x.github.io)**.
+Full paper and PoC demo available respectively at **[github.com/Fir3n0x/GAP](https://github.com/Fir3n0x/GAP)** and **[fir3n0x.github.io](https://fir3n0x.github.io)**.
 
 ---
 
